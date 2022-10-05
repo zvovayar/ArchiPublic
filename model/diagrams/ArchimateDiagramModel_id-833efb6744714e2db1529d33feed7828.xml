@@ -1,4 +1,40 @@
 <archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Default View"
-    id="id-833efb6744714e2db1529d33feed7828"/>
+    id="id-833efb6744714e2db1529d33feed7828">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-6e21232488e04c3b917a9600863e8c70">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-ae7b2e073de640a9a1fcf8114d143c04"
+        source="id-6e21232488e04c3b917a9600863e8c70"
+        target="id-c605c9cf361c418ca0cfe178f2f50263">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-fb23be0b719d4348883be14d7dae055e.xml#id-fb23be0b719d4348883be14d7dae055e"/>
+    </sourceConnections>
+    <bounds
+        x="156"
+        y="242"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Resource"
+        href="Resource_id-7cab03b8eb054a4b91db4678af1cf7f1.xml#id-7cab03b8eb054a4b91db4678af1cf7f1"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-c605c9cf361c418ca0cfe178f2f50263"
+      targetConnections="id-ae7b2e073de640a9a1fcf8114d143c04">
+    <bounds
+        x="802"
+        y="296"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessActor"
+        href="BusinessActor_id-4b57cab6de24474dbfe058929a672a56.xml#id-4b57cab6de24474dbfe058929a672a56"/>
+  </children>
+</archimate:ArchimateDiagramModel>
